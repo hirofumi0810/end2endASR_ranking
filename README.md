@@ -4,9 +4,19 @@ This repository is inspired by
 WER and CER are summarized.
 
 
+### TIMIT
+| PER | Paper | Published | Notes |
+| :--------------- | :--------------- | :---- | :-------- | :---: |
+| * | Paper | Published | Notes |
+| * | Paper | Published | Notes |
+| * | Paper | Published | Notes |
+| * | Paper | Published | Notes |
+| * | Paper | Published | Notes |
+| * | Paper | Published | Notes |
+
+
 
 ### Librispeech
-
 | WER (test-clean) | WER (test-other) | Paper | Published | Notes |
 | :--------------- | :--------------- | :---- | :-------- | :---: |
 | * | * | Paper | Published | Notes |
@@ -20,7 +30,7 @@ WER and CER are summarized.
 ### CSJ (Corpus of Japanese)
 #### Fullset (about 600h)
 | CER (eval1) | CER (eval2) | CER (eval3) | Paper | Published | Notes |
-| :---------- | :---------- | :---------- | :---- | :---  --: | :---: |
+| :---------- | :---------- | :---------- | :---- | :-------- | :---: |
 | 7.9 | 5.8 | 6.7 | Paper | Published | Joint CTC-Attention + join dec. (one-pass) + RNNLM (seperate) |
 | 8.4 | 6.2 | 6.9 | Paper | Published | Joint CTC-Attention (BLSTM encoder 320*6 layers) + join dec. (one-pass) |
 | 9.4 | 7.3 | 7.5 | Paper | Published | CTC-syllable |
@@ -37,7 +47,7 @@ WER and CER are summarized.
 
 #### Subset (about 240h)
 | CER (eval1) | CER (eval2) | CER (eval3) | Paper | Published | Notes |
-| :---------- | :---------- | :---------- | :---- | :---  --: | :---: |
+| :---------- | :---------- | :---------- | :---- | :-------- | :---: |
 | 13.9 | 10.2 | 22.2 | Paper | 2017/3 | Joint CTC-Attention (eval3 is domain mismatch) |
 | 17.2 | 12.4 | 25.4 | Paper | 2017/3 | Attention (eval3 is domain mismatch) |
 | * | * | * | Paper | Published | Notes |
@@ -46,7 +56,14 @@ WER and CER are summarized.
 | * | * | * | Paper | Published | Notes |
 
 ### WSJ
-
+| WER | Paper | Published | Notes |
+| :--------------- | :--------------- | :---- | :-------- | :---: |
+| * | Paper | Published | Notes |
+| * | Paper | Published | Notes |
+| * | Paper | Published | Notes |
+| * | Paper | Published | Notes |
+| * | Paper | Published | Notes |
+| * | Paper | Published | Notes |
 
 
 ### Switchboard (+ Fisher)
