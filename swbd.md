@@ -1,7 +1,7 @@
 ### Switchboard
 #### 300h (LDC97S62)
 | WER/CER <br> (SWB) | WER/CER <br> (CHE) | Model | Output | Paper | Published | Notes |
-| :----------------- | :------------- | :------ | :---- | :-------- | :---: |
+| :----------------- | :----------------- | :---- | :----- | :---- | :-------- | :---: |
 | 13.9 / - | 24.7 / - | CTC | Phone | [Audhkhasi et al.](http://www.isca-speech.org/archive/Interspeech_2017/pdfs/0546.PDF) | Interspeech2017 (2017/8) | + BigLM |
 | 14.0 / - | 25.3 / - | Iterated CTC | Char | [Zweig et al.](https://arxiv.org/abs/1609.05935) | ICASSP2017 <br> (2017/4) | + dictionary <br> + word ngram |
 | 14.5 / - | - | CTC | Phone | [Miao et al.](https://www.cs.cmu.edu/~ymiao/pub/icassp2016_ctc.pdf) | ICASSP 2016 <br> (2016/4) | VTLN-filterbank |
@@ -18,9 +18,10 @@
 | 38.8 / - | 59.9 / - | Attn | Word | [Lu et al.](http://www.isca-speech.org/archive/interspeech_2015/i15_3249.html) | Interspeech2015 <br> (2015/9) | no LM |
 <!-- | - | - | - | - | model | output | Paper | Published | Notes | -->
 
+
 #### 2000h (+ Fisher)
 | WER/CER <br> (SWB) | WER/CER <br> (CHE) | Model | Output | Paper | Published | Notes |
-| :----------------- | :----------------- | :---- | :------ | :---- | :-------- | :---: |
+| :----------------- | :----------------- | :---- | :----- | :---- | :-------- | :---: |
 | 9.6 / - | 16.0 / - | CTC | Phone | [Audhkhasi et al.](http://www.isca-speech.org/archive/Interspeech_2017/pdfs/0546.PDF) | Interspeech2017 (2017/8) | + BigLM |
 | 12.5 / - | 18.0 / - | CTC | Word | [Audhkhasi et al.](http://www.isca-speech.org/archive/Interspeech_2017/pdfs/0546.PDF) | Interspeech2017 (2017/8) | + GloVe Init. (24M + 560M) <br> + BigLM |
 | 13.0 / - | 18.8 / - | CTC | Word | [Audhkhasi et al.](http://www.isca-speech.org/archive/Interspeech_2017/pdfs/0546.PDF) | Interspeech2017 (2017/8) | + GloVe Init. (24M + 560M) |

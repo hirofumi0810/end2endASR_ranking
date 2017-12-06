@@ -1,7 +1,7 @@
 ### CSJ (Corpus of Japanese)
 #### Fullset (about 600h)
 | WER/CER (eval1) | WER/CER (eval2) | WER/CER (eval3) | Model | output | Paper | Published | Notes |
-| :---------- | :---------- | :---------- | :-----| :----- | :---- | :-------- | :---: |
+| :-------------- | :-------------- | :-------------- | :---- | :----- | :---- | :-------- | :---: |
 | - / 7.9 | - / 5.8 | - / 6.7 | MTL <br> (CTC+Attn) | Char | [Hori et al.](http://www.isca-speech.org/archive/Interspeech_2017/pdfs/1296.PDF) | Interspeech2017 <br> (2017/8) | + joint dec. (one-pass) <br> + RNNLM (seperate) |
 | - / 8.4 | - / 6.2 | - / 6.9 | CTC-Attn | Char | [Hori et al.](http://www.isca-speech.org/archive/Interspeech_2017/pdfs/1296.PDF) | Interspeech2017 <br> (2017/8) | + joint dec. (one-pass) <br> (BLSTM enc 6L-320H) |
 | 11.90 / 9.4 | 9.24 / 7.3 | 9.65 / 7.5 | CTC | Char | [Kanda et al.](http://www.isca-speech.org/archive/Interspeech_2016/pdfs/0071.PDF) | Interspeech2016 <br> (2016/9) | MAP decoding <br> (2-gram) |
@@ -17,7 +17,7 @@
 
 #### Subset (about 240h)
 | WER/CER (eval1) | WER/CER (eval2) | WER/CER (eval3) | Model | Output | Paper | Published | Notes |
-| :---------- | :---------- | :---------- | :-----| :----- | :---- | :-------- | :---: |
+| :-------------- | :-------------- | :-------------- | :---- | :----- | :---- | :-------- | :---: |
 | 12.94 / - | 10.33 / - | 13.11 / - | CTC | Char | [Kanda et al.](http://www.isca-speech.org/archive/Interspeech_2016/pdfs/0071.PDF) | Interspeech2016 <br> (2016/9) | MAP decoding <br> (2-gram) |
 | - / 13.9 | - / 10.2 | - / 22.2 | MTL <br> (CTC+Attn) | Char | Watanabe et al. | ASJ2017, spring <br> (2017/3) | no LM |
 | - / 17.2 | - / 12.4 | - / 25.4 | Attn | Char | Watanabe et al. | ASJ2017, spring <br> (2017/3) | no LM |
